@@ -18,8 +18,8 @@ This setup assumes a Windows Machine running UD and a file share, and a Raspberr
 3. Mount the Share on Raspbian
   ``` bash
   sudo apt-get install cifs-utils
-  sudo mkdir /mtn/SpyPics
-  sudo mount -t cifs //YOURUDSERVER/Share/BlueUD /mnt/SpyPics -o user=username,pass=password,dir_mode=0777,file_mode=0777
+  sudo mkdir /mtn/MotionPics
+  sudo mount -t cifs //YOURUDSERVER/Share/BlueUD /mnt/Motion -o user=username,pass=password,dir_mode=0777,file_mode=0777
   ```
 4. Raspbian Setup: (More Detailed Steps Soon...)
     * Ensure the Camera is Enabled.
