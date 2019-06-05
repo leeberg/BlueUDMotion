@@ -113,4 +113,4 @@ $DownloadsFolder = Publish-UDFolder -Path ($Cache:PictureSharePath+'\') -Request
 
 $Dashboard = New-UDDashboard -Title "BlueUDMotion 🎥 🐈 🐕" -Pages $Pages -EndpointInitialization $Endpoints
 
-Start-UDDashboard -Dashboard $Dashboard -Port 10000 -PublishedFolder $DownloadsFolder🐕
+Start-UDDashboard -Dashboard $Dashboard -Port 10000 -PublishedFolder $DownloadsFolder
